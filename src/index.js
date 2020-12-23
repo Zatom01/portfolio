@@ -5,6 +5,8 @@ import { createStore } from 'redux'
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import rootReducer from './reducers'
+import 'react-mdl/extra/material.css';
+import 'react-mdl/extra/material.js';
 
 const store = createStore(rootReducer);
 
